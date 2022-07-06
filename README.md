@@ -53,7 +53,7 @@ To run DP-HP experiments, use the following commands:
 - ` python3 prod_and_sum_kernel_image.py --log-name *experiment name* --data fashion -bs 200  --seed 0 --model-name CNN -ep 10  -lr 0.01 --order-hermite-sum 100 --order-hermite-prod 20 --kernel-length-sum 0.15 --kernel-length-prod 0.15 --gamma 10 --prod-dimension 2  --split --split-sum-ratio 0.8 --is-private` for $(1, 10^{-5})$-DP case
 
 
-2. Repoducing Fig. 3 and Fig. 6
+3. Repoducing Fig. 3 and Fig. 6
 
 -Run `code_balanced/plot_results.py` that loads the results from different models from `code_balanced/plots/` folder.
 
