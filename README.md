@@ -36,7 +36,9 @@ Run `dp_mehp/dp_mehp_synth_data_2d.py`
 
 To run DP-HP experiments, use the following commands:
 
-1. Creating the generated samples and predictive models evaluation
+1. Obtain .npz files needed: run `extract_numpy_data_mats()` function in `dp_mehp/aux.py`
+
+2. Creating the generated samples and predictive models evaluation
 
 ### MNIST
 
