@@ -1,0 +1,22 @@
+
+dp_mehp/logs/
+dp_mehp/data/
+dp_mehp/__pycache__/*.pyc
+
+
+
+.idea/
+
+
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Icon?
+ehthumbs.db
+Thumbs.db
+*~
