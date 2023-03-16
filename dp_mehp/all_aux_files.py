@@ -237,7 +237,8 @@ def ME_with_HP_prod(x, order, rho, device, n_training_data, dim_0_prod_kernel):
       phi_dim=phi_x[:, dim, :]
       B=torch.einsum('i...j, ik -> i...jk', B, phi_dim)
   
-  mean_outer= torch.mean(B, axis=0)
+  sum_outer= torch.sum(B, axis=0)
+  mean_outer=sum_outer/n_training_data
   out = mean_outer.view(-1)
 
   return out
